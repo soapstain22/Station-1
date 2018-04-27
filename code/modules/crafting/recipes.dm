@@ -34,7 +34,7 @@
 	subcategory = CAT_WEAPON
 
 /datum/crafting_recipe/lance
-	name = "Explosive Lance (Grenade)"
+	name = "explosive lance (grenade)"
 	result = /obj/item/twohanded/spear
 	reqs = list(/obj/item/twohanded/spear = 1,
 				/obj/item/grenade = 1)
@@ -45,7 +45,7 @@
 	subcategory = CAT_WEAPON
 
 /datum/crafting_recipe/strobeshield
-	name = "Strobe Shield"
+	name = "strobe shield"
 	result = /obj/item/device/assembly/flash/shield
 	reqs = list(/obj/item/wallframe/flasher = 1,
 				/obj/item/device/assembly/flash/handheld = 1,
@@ -441,7 +441,7 @@
 	subcategory = CAT_WEAPON
 
 /datum/crafting_recipe/chemical_payload2
-	name = "Chemical Payload (Gibtonite)"
+	name = "Chemical Payload (gibtonite)"
 	result = /obj/item/bombcore/chemical
 	reqs = list(
 		/obj/item/stock_parts/matter_bin = 1,
@@ -510,7 +510,7 @@
 	category = CAT_PRIMAL
 
 /datum/crafting_recipe/gold_horn
-	name = "Golden Bike Horn"
+	name = "Golden bike horn"
 	result = /obj/item/bikehorn/golden
 	time = 20
 	reqs = list(/obj/item/stack/sheet/mineral/bananium = 5,
